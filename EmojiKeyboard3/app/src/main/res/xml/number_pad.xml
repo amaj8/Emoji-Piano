@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY emoji1 "0x0001F601">
+    <!ENTITY emoji2 "0x0001F600">
+    ]>
+
+<!--<resources>-->
+<!--    <string name="random1">0x0001F600</string>-->
+<!--    <string name="random2">0x0001F601</string>-->
+<!--</resources>-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:keyWidth = "110dp"
+    android:verticalGap="5dp"
+    android:keyHeight="100dp">
+    <Row>
+<!--        <Key android:codes="\u2712" android:keyLabel="\u2712" android:keyEdgeFlags="left"/>-->
+<!--        face-->
+        <Key android:codes="1" android:keyLabel="😀" android:keyEdgeFlags="left"/>-->
+<!--        <Key android:codes="0x1F602" android:keyIcon="\0x1F602" android:keyEdgeFlags="left"/>-->
+<!--        <Key android:codes=":smile:" android:keyLabel=":bowtie:" android:keyEdgeFlags="left"/>-->
+<!--        emotion-->
+        <Key android:codes="2" android:keyLabel="2"/>
+<!--        body-->
+        <Key android:codes="3" android:keyLabel="3"/>
+<!--        person-->
+        <Key android:codes="4" android:keyLabel="4"/>
+<!--        animal_nature-->
+        <Key android:codes="5" android:keyLabel="😺" android:keyEdgeFlags="right"/>
+        <Key android:codes="6" android:keyLabel="😺" android:keyEdgeFlags="right"/>
+        <Key android:codes="7" android:keyLabel="😺" android:keyEdgeFlags="right"/>
+        <Key android:codes="8" android:keyLabel="😺" android:keyEdgeFlags="right"/>
+        <Key android:codes="9" android:keyLabel="😺" android:keyEdgeFlags="right"/>
+
+    </Row>
+
+<!--    <Row>-->
+<!--&lt;!&ndash;        food_drink&ndash;&gt;-->
+<!--        <Key android:codes="6" android:keyLabel="5" android:keyEdgeFlags="left"/>-->
+<!--&lt;!&ndash;        travel_places&ndash;&gt;-->
+<!--        <Key android:codes="7" android:keyLabel="6"/>-->
+<!--&lt;!&ndash;        time&ndash;&gt;-->
+<!--        <Key android:codes="8" android:keyLabel="⌛"/>-->
+<!--&lt;!&ndash;        sky_weather&ndash;&gt;-->
+<!--        <Key android:codes="9" android:keyLabel="8"/>-->
+<!--&lt;!&ndash;        activities&ndash;&gt;-->
+<!--        <Key android:codes="10" android:keyLabel="9" android:keyEdgeFlags="right"/>-->
+<!--    </Row>-->
+
+<!--    <Row>-->
+<!--        <Key android:codes="-5"-->
+<!--            android:keyLabel="DELETE"-->
+<!--            android:keyWidth="40%p"-->
+<!--            android:keyEdgeFlags="left"-->
+<!--            android:isRepeatable="true"/>-->
+<!--        <Key android:codes="-4"-->
+<!--            android:keyLabel="ENTER"-->
+<!--            android:keyWidth="60%p"-->
+<!--            android:keyEdgeFlags="right"/>-->
+<!--    </Row>-->
+
+</Keyboard>
